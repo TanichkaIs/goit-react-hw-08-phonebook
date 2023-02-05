@@ -14,12 +14,6 @@ const Filter = () => {
 
   return (
     <div
-    // sx={{
-    //   marginTop: 8,
-    //   display: 'flex',
-    //   flexDirection: 'column',
-    //   alignItems: 'center',
-    // }}
     >
       <TextField
         label="Filter by name"

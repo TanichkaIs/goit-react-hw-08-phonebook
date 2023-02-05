@@ -33,7 +33,7 @@ const ContactList = () => {
   const contacts = useSelector(selectContacts);
   const handleDelete = (id, name) => {
     dispatch(deleteContact(id));
-    Notify.info(`${name} is deleted from you phonebook succesfull!`);
+    Notify.info(`${name} is deleted from you phonebook succesfull!;)`);
   };
 
   const toRender = useSelector(visibleContacts);

@@ -11,7 +11,7 @@ export const PrivateRoute = () => {
 
 export const PublicRoute = ({restricted}) => {
     const isLoggedIn = useSelector(selectAuth).isLoggedIn;
-    // const shouldNavigate = isLoggedIn && restricted
+    
 
   return isLoggedIn ? <Navigate to="/contacts" /> : <Outlet/>
 }

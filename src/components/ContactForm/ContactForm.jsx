@@ -17,7 +17,7 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import { Notify } from 'notiflix';
-// import LoaderBlock from 'components/Loaders/LoaderBlock';
+
 import { Blocks } from 'react-loader-spinner';
 
 const ContactForm = () => {
@@ -79,7 +79,7 @@ const ContactForm = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            // borderBottom: '2px solid grey',
+            
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
